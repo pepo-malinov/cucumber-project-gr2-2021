@@ -13,7 +13,7 @@ public class LoginSteps {
 	
 	@Given("^Портебителя отваря екрана за вход в системата$")
 	public void openLoginScreen() throws Throwable {
-		loginPageModel.navigatetoLoginScreen();
+		loginPageModel.navigateToMe();
 	}
 
 	@When("^Въвежда потребителско име \"([^\"]*)\"$")

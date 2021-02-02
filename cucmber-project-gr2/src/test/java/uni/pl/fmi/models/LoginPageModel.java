@@ -8,7 +8,7 @@ public class LoginPageModel {
 	private String password;
 	private String message;
 
-	public void navigatetoLoginScreen() {
+	public void navigateToMe() {
 		System.out.println("Навигирано е до страницата за вход в системата.");
 	}
 

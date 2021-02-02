@@ -11,6 +11,7 @@ public class User {
 	private String username;
 	private String password;
 	private String email;
+
 	private String firstName;
 	private String lastName;
 	private Set<Order> orders = new HashSet<>();
@@ -19,6 +20,13 @@ public class User {
 	 * Default constructor
 	 */
 	public User() {
+	}
+
+	public User(String username, String password, String email) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.email = email;
 	}
 
 	/**
